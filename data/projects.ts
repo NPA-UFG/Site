@@ -1,69 +1,69 @@
 import type { GalleryImage, ProjectArea, ProjectItem } from "@/types";
 
 export const projectsIntro = {
-  title: "Rorem ipsum",
-  text: "Forem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec ut rhoncus ex. Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum lorem. Morbi convallis convallis diam sit amet lacinia. Aliquam in elementum tellus.",
+  title: "Nossos Projetos",
+  text: "Desde 2021, o NPA desenvolve projetos aeroespaciais concretos — de CubeSats para lançamento orbital a estações terrenas de rastreamento de satélites. Nossa trajetória já inclui descobertas de asteroides reconhecidas pelo MCTI e publicações em conferências internacionais, sempre unindo pesquisa e desenvolvimento, formação prática dos membros e divulgação científica. Cada projeto é uma oportunidade real de aplicar conhecimento técnico e construir um portfólio sólido na área.",
 };
 
 export const projectAreas: ProjectArea[] = [
   {
     id: 1,
-    label: "Área 1",
-    title: "Área 1",
-    text: "Horem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis.",
+    label: "CubeSats",
+    title: "CubeSats",
+    text: "Projetamos e construímos CubeSats para lançamento orbital, aplicando na prática conceitos de engenharia aeroespacial. Esses satélites de pequeno porte são a base para missões de coleta de dados e experimentos científicos desenvolvidos pelos tripulantes do NPA.",
   },
   {
     id: 2,
-    label: "Área 2",
-    title: "Área 2",
-    text: "Sorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis.",
+    label: "Estações Terrenas",
+    title: "Estações Terrenas",
+    text: "Desenvolvemos e operamos estações base para rastreamento e comunicação com satélites, incluindo uma estação SatNOGS construída em parceria com a ABC (Amigos do Brasil Central). Essa infraestrutura permite receber sinais de satélites em órbita e integrar a rede global de estações terrenas.",
   },
   {
     id: 3,
-    label: "Área 3",
-    title: "Área 3",
-    text: "Qorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis.",
+    label: "Dados de Satélites",
+    title: "Análise de Dados de Satélites",
+    text: "Coletamos e analisamos dados de satélites, trabalhando com técnicas como a estimativa de órbita em pequenos satélites LEO. Esse esforço resultou no artigo \"Orbit estimation in small LEO satellites\", aceito na conferência internacional LAFUSION2024.",
   },
   {
     id: 4,
-    label: "Área 4",
-    title: "Área 4",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis.",
+    label: "Astronomia",
+    title: "Astronomia e Asteroides",
+    text: "Realizamos observações astronômicas que já levaram a descobertas de asteroides reconhecidas pelo MCTI. Essa frente aproxima os membros da astronomia observacional e da ciência de dados aplicada ao espaço.",
   },
   {
     id: 5,
-    label: "Área 5",
-    title: "Área 5",
-    text: "Morem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis.",
+    label: "Sensoriamento",
+    title: "Sensoriamento Remoto",
+    text: "Estudamos aplicações de monitoramento remoto do território, linha iniciada pela equipe Goyasat na 1ª OBSAT com o monitoramento de fronteiras do território brasileiro. A área explora o uso de satélites para observação da Terra.",
   },
   {
     id: 6,
-    label: "Área 6",
-    title: "Área 6",
-    text: "Porem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis.",
+    label: "Divulgação",
+    title: "Divulgação Científica",
+    text: "Levamos a ciência aeroespacial ao público em eventos como Expofavela, DroneShow, Campus Party, OpenUniverse e a Copa Centro-Oeste de Foguetes, democratizando o conhecimento e inspirando novas gerações de cientistas e engenheiros.",
   },
 ];
 
 export const projectItems: ProjectItem[] = [
   {
-    title: "Projeto 1",
+    title: "Equipe Millenium — 1ª OBSAT",
     description:
-      "Gorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis. Ut commodo efficitur neque. Ut diam quam, semper iaculis condimentum ac, vestibulum eu nisl.",
+      "Formada por alunos de Engenharia de Computação da UFG sob supervisão do Professor Aldo Diaz (INF), teve como missão o estudo de anomalias magnéticas na magnetosfera terrestre. Foi o primeiro projeto do NPA, estabelecendo nossa presença na área aeroespacial.",
   },
   {
-    title: "Projeto 2",
+    title: "Equipe Goyasat — 1ª OBSAT",
     description:
-      "Sorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis. Ut commodo efficitur neque. Ut diam quam, semper iaculis condimentum ac, vestibulum eu nisl.",
+      "Formada por alunos de Engenharia Mecânica e de Computação da UFG sob supervisão do Professor Marco Assfalk (EMC), teve como missão o monitoramento remoto de fronteiras do território brasileiro, demonstrando a capacidade interdisciplinar do NPA.",
   },
   {
-    title: "Projeto 3",
+    title: "Estação SatNOGS",
     description:
-      "Qorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis. Ut commodo efficitur neque. Ut diam quam, semper iaculis condimentum ac, vestibulum eu nisl.",
+      "Estação terrena de rastreamento de satélites desenvolvida em parceria com a ABC (Amigos do Brasil Central), integrando o NPA à rede global de estações e fortalecendo nossa capacidade de recepção de dados orbitais.",
   },
   {
-    title: "Projeto 4",
+    title: "Publicação LAFUSION2024",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis. Ut commodo efficitur neque. Ut diam quam, semper iaculis condimentum ac, vestibulum eu nisl.",
+      "Artigo \"Orbit estimation in small LEO satellites: Application and comparison of Kalman filters\", de Débora Eliane Soares de Souza Batista e Aldo André Diaz Salazar, aceito na conferência internacional LAFUSION2024.",
   },
 ];
 
