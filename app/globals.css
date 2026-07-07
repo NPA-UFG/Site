@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-gray-bg font-mono text-ink antialiased;
+    line-height: 1.6;
+  }
+
+  img {
+    @apply block max-w-full;
+  }
+}
