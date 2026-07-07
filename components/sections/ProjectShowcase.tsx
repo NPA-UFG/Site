@@ -1,6 +1,6 @@
 "use client";
 
-import { type ReactNode, useState } from "react";
+import { type ReactNode, useEffect, useRef, useState } from "react";
 import Image from "next/image";
 import { Container } from "@/components/ui/Container";
 import { projectAreas } from "@/data/projects";
@@ -12,18 +12,39 @@ interface ProjectShowcaseProps {
 
 export function ProjectShowcase({ children }: ProjectShowcaseProps) {
   const [activeId, setActiveId] = useState(projectAreas[0].id);
+  const rootRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const applyHash = () => {
+      const match = window.location.hash.match(/area-(\d+)/);
+      if (!match) return;
+      const id = Number(match[1]);
+      if (!projectAreas.some((area) => area.id === id)) return;
+      setActiveId(id);
+      rootRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
+    };
+    applyHash();
+    window.addEventListener("hashchange", applyHash);
+    return () => window.removeEventListener("hashchange", applyHash);
+  }, []);
+
   const activeArea =
     projectAreas.find((area) => area.id === activeId) ?? projectAreas[0];
 
+  const selectArea = (id: number) => {
+    setActiveId(id);
+    window.history.replaceState(null, "", `#area-${id}`);
+  };
+
   return (
-    <>
+    <div ref={rootRef}>
       <div className="bg-rust">
         <div className="mx-auto flex max-w-container flex-wrap justify-between">
           {projectAreas.map((area) => (
             <button
               key={area.id}
               type="button"
-              onClick={() => setActiveId(area.id)}
+              onClick={() => selectArea(area.id)}
               className={cn(
                 "min-w-[33%] flex-1 cursor-pointer px-1.5 py-4 text-center font-head text-[1.05rem] font-bold text-[#f3d9c6] transition-colors hover:text-white nav:min-w-[120px] nav:px-2.5 nav:py-[26px] nav:text-[1.4rem]",
                 area.id === activeId && "bg-black/[0.14] text-white",
@@ -59,6 +80,6 @@ export function ProjectShowcase({ children }: ProjectShowcaseProps) {
           {children}
         </Container>
       </section>
-    </>
+    </div>
   );
 }

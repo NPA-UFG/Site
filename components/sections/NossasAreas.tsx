@@ -13,7 +13,7 @@ export function NossasAreas() {
         </SectionHeading>
         <div className="mt-4 grid grid-cols-1 gap-5 nav:grid-cols-3 nav:gap-7">
           {areaCards.map((card, index) => (
-            <Card key={index} card={card} href="/projetos" />
+            <Card key={index} card={card} href={`/projetos#area-${index + 1}`} />
           ))}
         </div>
       </Container>
