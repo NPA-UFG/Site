@@ -1,48 +1,48 @@
 import {
-  Globe,
-  LineChart,
-  Megaphone,
-  Satellite,
-  SatelliteDish,
+  BrainCircuit,
+  Code2,
+  Cpu,
+  GraduationCap,
+  RadioTower,
   Telescope,
 } from "lucide-react";
 import type { AreaCard } from "@/types";
 
 export const areaCards: AreaCard[] = [
   {
-    title: "CubeSats",
+    title: "Eletrônica e Sistemas Embarcados",
     description:
-      "Projeto e construção de CubeSats para lançamento orbital e experimentos científicos.",
-    icon: Satellite,
+      "Projeto de hardware e firmware para CubeSats e estações, integrando sensores, microcontroladores e sistemas de bordo.",
+    icon: Cpu,
   },
   {
-    title: "Estações Terrenas",
+    title: "Divulgação Científica e Educação",
     description:
-      "Estações base para rastreamento e comunicação com satélites, incluindo a rede SatNOGS.",
-    icon: SatelliteDish,
+      "Levamos a ciência aeroespacial ao público em eventos e ações que democratizam o conhecimento e inspiram novas gerações.",
+    icon: GraduationCap,
   },
   {
-    title: "Dados de Satélites",
+    title: "Software e Algoritmos",
     description:
-      "Coleta e análise de dados orbitais, com estimativa de órbita de pequenos satélites LEO.",
-    icon: LineChart,
+      "Desenvolvimento de software para missões: firmware de voo, ferramentas de simulação e algoritmos de controle e processamento.",
+    icon: Code2,
   },
   {
-    title: "Astronomia",
+    title: "Ciência de Dados e IA",
     description:
-      "Observações astronômicas que já resultaram em descobertas de asteroides reconhecidas pelo MCTI.",
+      "Análise de dados de satélites e técnicas de ciência de dados e IA, como a estimativa de órbita de pequenos satélites LEO.",
+    icon: BrainCircuit,
+  },
+  {
+    title: "Comunicações e RF",
+    description:
+      "Comunicação com satélites e radiofrequência, incluindo a estação SatNOGS para recepção de sinais de satélites em órbita.",
+    icon: RadioTower,
+  },
+  {
+    title: "Astronomia e Observação Espacial",
+    description:
+      "Observação astronômica e do espaço, frente que já rendeu descobertas de asteroides reconhecidas pelo MCTI.",
     icon: Telescope,
-  },
-  {
-    title: "Sensoriamento Remoto",
-    description:
-      "Uso de satélites para observação da Terra e monitoramento do território.",
-    icon: Globe,
-  },
-  {
-    title: "Divulgação Científica",
-    description:
-      "Compartilhamos ciência em eventos e ações que democratizam o conhecimento aeroespacial.",
-    icon: Megaphone,
   },
 ];
