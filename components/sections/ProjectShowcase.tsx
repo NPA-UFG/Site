@@ -3,7 +3,7 @@
 import { type ReactNode, useEffect, useRef, useState } from "react";
 import Image from "next/image";
 import { Container } from "@/components/ui/Container";
-import { projectAreas } from "@/data/projects";
+import { projectAreas, projectItems } from "@/data/projects";
 import { cn } from "@/lib/utils";
 
 interface ProjectShowcaseProps {
@@ -30,6 +30,7 @@ export function ProjectShowcase({ children }: ProjectShowcaseProps) {
 
   const activeArea =
     projectAreas.find((area) => area.id === activeId) ?? projectAreas[0];
+  const areaProjects = projectItems.filter((item) => item.area === activeId);
 
   const selectArea = (id: number) => {
     setActiveId(id);
@@ -75,6 +76,28 @@ export function ProjectShowcase({ children }: ProjectShowcaseProps) {
                 className="h-auto w-full"
               />
             </div>
+          </div>
+
+          <div className="mt-14">
+            <h3 className="mb-6 font-head text-[1.6rem] font-bold text-gold">
+              Projetos em {activeArea.title}
+            </h3>
+            {areaProjects.length > 0 ? (
+              areaProjects.map((item) => (
+                <div key={item.title} className="mb-7">
+                  <h4 className="mb-1.5 font-mono text-base font-bold text-gold">
+                    {item.title}
+                  </h4>
+                  <p className="max-w-[80ch] font-mono text-[0.9rem] text-[#cfcfcf]">
+                    {item.description}
+                  </p>
+                </div>
+              ))
+            ) : (
+              <p className="font-mono text-[0.9rem] text-[#cfcfcf]">
+                Novos projetos desta área serão divulgados em breve.
+              </p>
+            )}
           </div>
 
           {children}

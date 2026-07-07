@@ -48,6 +48,7 @@ export interface ProjectArea {
 export interface ProjectItem {
   title: string;
   description: string;
+  area: number;
 }
 
 export interface GalleryImage {

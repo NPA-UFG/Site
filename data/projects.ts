@@ -44,26 +44,34 @@ export const projectAreas: ProjectArea[] = [
   },
 ];
 
+// area referencia o id da area em projectAreas:
+// 1 Eletronica e Sistemas Embarcados | 2 Divulgacao Cientifica e Educacao
+// 3 Software e Algoritmos | 4 Ciencia de Dados e IA
+// 5 Comunicacoes e RF | 6 Astronomia e Observacao Espacial
 export const projectItems: ProjectItem[] = [
   {
     title: "Equipe Millenium — 1ª OBSAT",
     description:
       "Formada por alunos de Engenharia de Computação da UFG sob supervisão do Professor Aldo Diaz (INF), teve como missão o estudo de anomalias magnéticas na magnetosfera terrestre. Foi o primeiro projeto do NPA, estabelecendo nossa presença na área aeroespacial.",
+    area: 1,
   },
   {
     title: "Equipe Goyasat — 1ª OBSAT",
     description:
       "Formada por alunos de Engenharia Mecânica e de Computação da UFG sob supervisão do Professor Marco Assfalk (EMC), teve como missão o monitoramento remoto de fronteiras do território brasileiro, demonstrando a capacidade interdisciplinar do NPA.",
+    area: 4,
   },
   {
     title: "Estação SatNOGS",
     description:
       "Estação terrena de rastreamento de satélites desenvolvida em parceria com a ABC (Amigos do Brasil Central), integrando o NPA à rede global de estações e fortalecendo nossa capacidade de recepção de dados orbitais.",
+    area: 5,
   },
   {
     title: "Publicação LAFUSION2024",
     description:
       "Artigo \"Orbit estimation in small LEO satellites: Application and comparison of Kalman filters\", de Débora Eliane Soares de Souza Batista e Aldo André Diaz Salazar, aceito na conferência internacional LAFUSION2024.",
+    area: 4,
   },
 ];
 
