@@ -40,10 +40,10 @@ export function Contato() {
           <div>
             <SectionHeading className="mb-6">Onde estamos</SectionHeading>
             <p className="max-w-[48ch] font-mono text-[1.05rem] font-semibold">
-              Gorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-              vulputate libero et velit interdum, ac aliquet odio mattis. Class
-              aptent taciti sociosqu ad litora torquent per conubia nostra, per
-              inceptos himenaeos.
+              Somos um núcleo de pesquisa vinculado à Universidade Federal de
+              Goiás (UFG). Atuamos junto à comunidade acadêmica, reunindo
+              estudantes de diferentes cursos em torno de projetos aeroespaciais
+              — da pesquisa e desenvolvimento à divulgação científica.
             </p>
           </div>
         </div>
