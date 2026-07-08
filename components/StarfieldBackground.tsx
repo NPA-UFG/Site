@@ -42,6 +42,7 @@ export function StarfieldBackground() {
     }
 
     function resize() {
+      if (!container || !canvas || !ctx) return;
       const dpr = window.devicePixelRatio || 1;
       w = container.clientWidth;
       h = container.clientHeight;
@@ -63,6 +64,7 @@ export function StarfieldBackground() {
     ro.observe(container);
 
     function animate() {
+      if (!ctx) return;
       ctx.fillStyle = "rgba(0, 0, 0, 0.4)";
       ctx.fillRect(0, 0, w, h);
 
