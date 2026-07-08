@@ -26,7 +26,7 @@ export const projectAreas: ProjectArea[] = [
   },
   {
     id: 4,
-    label: "Ciência de Dados",
+    label: "Dados",
     title: "Ciência de Dados e IA",
     text: "Coletamos e analisamos dados de satélites com técnicas de ciência de dados e IA, como a estimativa de órbita em pequenos satélites LEO. Esse esforço resultou no artigo \"Orbit estimation in small LEO satellites\", aceito na conferência internacional LAFUSION2024.",
   },

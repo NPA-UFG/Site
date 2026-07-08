@@ -25,7 +25,7 @@ export function Footer() {
         linkClassName="hover:text-rust"
       />
       <p className="font-mono text-[13px] text-[#bdbdbd]">
-        © 2025 NPA, Todos os direitos reservados.
+        © 2026 NPA, Todos os direitos reservados.
       </p>
     </footer>
   );
