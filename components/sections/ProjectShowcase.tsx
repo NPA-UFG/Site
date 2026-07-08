@@ -47,7 +47,7 @@ export function ProjectShowcase({ children }: ProjectShowcaseProps) {
               type="button"
               onClick={() => selectArea(area.id)}
               className={cn(
-                "min-w-[33%] flex-1 cursor-pointer px-1.5 py-4 text-center font-head text-[1.05rem] font-bold text-[#f3d9c6] transition-colors hover:text-white nav:min-w-[120px] nav:px-2.5 nav:py-[26px] nav:text-[1.4rem]",
+                "min-w-[33%] flex-1 cursor-pointer px-1.5 py-2 text-center font-head text-[0.9rem] font-bold text-[#f3d9c6] transition-colors hover:text-white nav:min-w-[120px] nav:px-2.5 nav:py-3 nav:text-[1.1rem]",
                 area.id === activeId && "bg-black/[0.14] text-white",
               )}
             >
