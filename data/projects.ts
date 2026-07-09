@@ -76,15 +76,15 @@ export const projectItems: ProjectItem[] = [
   {
     title: "Chaveiro LED NPA — Projeto de Arrecadação",
     description:
-      "Chaveiro com LEDs SMD desenvolvido pelo NPA para venda e arrecadação de verba para o núcleo. O circuito conta com LEDs SMD, bateria e um interruptor liga/desliga, tudo montado em uma PCB compacta. Gire e explore o modelo 3D ao lado.",
+      "Chaveiro com LEDs SMD desenvolvido pelo NPA para venda e arrecadação de verba para o núcleo. O circuito conta com LEDs SMD, bateria e um interruptor liga/desliga, tudo montado em uma PCB compacta.",
     area: 1,
     model: "/assets/pcb.glb",
     modelType: "pcb",
   },
   {
-    title: "AgroSat-IoT — Satélite IoT para Agricultura",
+    title: "Equipe Orbitalis — 3ª OBSAT",
     description:
-      "CubeSat de baixo custo com LoRa, GPS, e sensores ambientais (BMP280, CCS811, MPU9255) para monitoramento agrícola. Assista à animação de explosão mostrando todos os componentes do assembly.",
+      "Formada por alunos de Engenharia Elétrica e Engenharia Física da UFG sob supervisão do Professor Aldo Diaz (INF), a equipe Orbitalis, oriunda do NPA, desenvolveu o AgroSat-IoT — um CubeSat de baixo custo equipado com LoRa, GPS e sensores ambientais para monitoramento agrícola, competindo na 3ª edição da Olimpíada Brasileira de Satélites (OBSAT).",
     area: 1,
     model: "/assets/agrosat.glb",
     modelType: "explosion",

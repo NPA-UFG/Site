@@ -71,7 +71,7 @@ function ExplodedModel({ url }: { url: string }) {
 
   useFrame((_, delta) => {
     if (groupRef.current) {
-      groupRef.current.rotation.y += delta * 0.15;
+      groupRef.current.rotation.y -= delta * 0.15;
     }
   });
 

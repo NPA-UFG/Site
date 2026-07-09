@@ -27,12 +27,11 @@ export function PCBViewer({ modelUrl }: { modelUrl: string }) {
         auto-rotate
         auto-rotate-delay="0"
         rotation-per-second="25deg"
-        interaction-prompt="none"
-        disable-zoom
+        camera-controls
         environment-image="neutral"
-        exposure="1.5"
+        exposure="1.0"
         shadow-intensity="0"
-        style={{ width: "100%", height: "100%" }}
+        style={{ width: "100%", height: "70%" }}
       />
     </div>
   );
