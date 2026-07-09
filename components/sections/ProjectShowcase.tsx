@@ -58,9 +58,6 @@ export function ProjectShowcase({ children }: ProjectShowcaseProps) {
   return (
     <div ref={rootRef}>
       <div className="bg-rust px-5 pt-4 sm:px-8 nav:px-0 nav:pt-0">
-        <p className="mx-auto mb-3 max-w-container text-center font-head text-[0.8rem] font-bold uppercase tracking-wide text-white/90 nav:hidden">
-          Escolha uma área e veja os detalhes logo abaixo
-        </p>
         <div className="mx-auto grid max-w-container grid-cols-3 gap-2 pb-4 nav:flex nav:flex-wrap nav:justify-between nav:gap-0 nav:pb-0">
           {projectAreas.map((area) => {
             const Icon = areaIcons[area.id];
