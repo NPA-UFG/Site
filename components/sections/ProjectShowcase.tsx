@@ -2,6 +2,15 @@
 
 import { type ReactNode, useEffect, useRef, useState } from "react";
 import Image from "next/image";
+import {
+  BrainCircuit,
+  Code2,
+  Cpu,
+  GraduationCap,
+  RadioTower,
+  Telescope,
+  type LucideIcon,
+} from "lucide-react";
 import { Container } from "@/components/ui/Container";
 import { projectAreas, projectItems } from "@/data/projects";
 import { cn } from "@/lib/utils";
@@ -9,6 +18,15 @@ import { cn } from "@/lib/utils";
 interface ProjectShowcaseProps {
   children: ReactNode;
 }
+
+const areaIcons: Record<number, LucideIcon> = {
+  1: Cpu,
+  2: GraduationCap,
+  3: Code2,
+  4: BrainCircuit,
+  5: RadioTower,
+  6: Telescope,
+};
 
 export function ProjectShowcase({ children }: ProjectShowcaseProps) {
   const [activeId, setActiveId] = useState(projectAreas[0].id);
@@ -39,21 +57,30 @@ export function ProjectShowcase({ children }: ProjectShowcaseProps) {
 
   return (
     <div ref={rootRef}>
-      <div className="bg-rust">
-        <div className="mx-auto flex max-w-container flex-wrap justify-between">
-          {projectAreas.map((area) => (
-            <button
-              key={area.id}
-              type="button"
-              onClick={() => selectArea(area.id)}
-              className={cn(
-                "min-w-[33%] flex-1 cursor-pointer px-1.5 py-2 text-center font-head text-[0.9rem] font-bold text-[#f3d9c6] transition-colors hover:text-white nav:min-w-[120px] nav:px-2.5 nav:py-3 nav:text-[1.1rem]",
-                area.id === activeId && "bg-black/[0.14] text-white",
-              )}
-            >
-              {area.label}
-            </button>
-          ))}
+      <div className="bg-rust px-5 pt-4 sm:px-8 nav:px-0 nav:pt-0">
+        <p className="mx-auto mb-3 max-w-container text-center font-head text-[0.8rem] font-bold uppercase tracking-wide text-white/90 nav:hidden">
+          Escolha uma área e veja os detalhes logo abaixo
+        </p>
+        <div className="mx-auto grid max-w-container grid-cols-3 gap-2 pb-4 nav:flex nav:flex-wrap nav:justify-between nav:gap-0 nav:pb-0">
+          {projectAreas.map((area) => {
+            const Icon = areaIcons[area.id];
+            return (
+              <button
+                key={area.id}
+                type="button"
+                onClick={() => selectArea(area.id)}
+                className={cn(
+                  "flex cursor-pointer flex-col items-center justify-center gap-1 rounded-xl border px-2 py-3 text-center font-head text-[0.72rem] font-bold leading-tight transition-colors nav:min-w-[120px] nav:flex-1 nav:rounded-none nav:border-0 nav:bg-transparent nav:px-2.5 nav:py-3 nav:text-[1.1rem] nav:leading-normal",
+                  area.id === activeId
+                    ? "border-white bg-white text-rust shadow-sm nav:border-transparent nav:bg-black/[0.14] nav:text-white nav:shadow-none"
+                    : "border-white/25 bg-black/15 text-[#f3d9c6] hover:border-white/40 hover:bg-black/25 hover:text-white nav:border-transparent nav:bg-transparent nav:hover:bg-transparent",
+                )}
+              >
+                <Icon className="h-5 w-5 nav:hidden" strokeWidth={2} />
+                <span>{area.label}</span>
+              </button>
+            );
+          })}
         </div>
       </div>
 
