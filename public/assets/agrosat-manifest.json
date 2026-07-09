@@ -1,254 +1,488 @@
 [
   {
-    "name": "18650 Battery Holder v5",
-    "vol": 20788.4,
+    "name": "fundo",
+    "vol": 52187.3,
     "center": [
-      19.87,
-      23.57,
-      -19.47
+      4.87,
+      4.37,
+      -36.94
     ]
   },
   {
-    "name": "35v 18650 v005",
-    "vol": 16540.5,
+    "name": "topo ",
+    "vol": 48940.6,
     "center": [
-      -27.14,
-      -27.44,
-      -19.47
+      4.87,
+      4.37,
+      61.36
+    ]
+  },
+  {
+    "name": "bateria",
+    "vol": 34936.2,
+    "center": [
+      4.88,
+      4.38,
+      -26.27
+    ]
+  },
+  {
+    "name": "main",
+    "vol": 30533.1,
+    "center": [
+      4.88,
+      4.38,
+      32.83
+    ]
+  },
+  {
+    "name": "lateral001",
+    "vol": 24000.0,
+    "center": [
+      -43.63,
+      4.37,
+      12.21
+    ]
+  },
+  {
+    "name": "lateral002",
+    "vol": 24000.0,
+    "center": [
+      4.87,
+      -44.13,
+      12.21
+    ]
+  },
+  {
+    "name": "lateral003",
+    "vol": 24000.0,
+    "center": [
+      4.87,
+      52.87,
+      12.21
+    ]
+  },
+  {
+    "name": "lateral004",
+    "vol": 24000.0,
+    "center": [
+      53.37,
+      4.37,
+      12.21
+    ]
+  },
+  {
+    "name": "18650 Battery Holder v5",
+    "vol": 20788.4,
+    "center": [
+      4.88,
+      4.38,
+      -23.29
+    ]
+  },
+  {
+    "name": "suporte interno",
+    "vol": 18327.3,
+    "center": [
+      4.87,
+      4.37,
+      55.71
+    ]
+  },
+  {
+    "name": "suporte interno 002",
+    "vol": 18327.3,
+    "center": [
+      4.87,
+      4.37,
+      -31.29
+    ]
+  },
+  {
+    "name": "pion sensores",
+    "vol": 17155.5,
+    "center": [
+      4.88,
+      4.38,
+      -7.7
+    ]
+  },
+  {
+    "name": "PCB",
+    "vol": 12652.5,
+    "center": [
+      4.88,
+      4.38,
+      -32.99
+    ]
+  },
+  {
+    "name": "PCB002",
+    "vol": 12652.5,
+    "center": [
+      4.88,
+      4.38,
+      -13.99
+    ]
+  },
+  {
+    "name": "PCB003",
+    "vol": 12652.5,
+    "center": [
+      4.88,
+      4.38,
+      5.01
+    ]
+  },
+  {
+    "name": "PCB001",
+    "vol": 12652.5,
+    "center": [
+      2.87,
+      2.37,
+      -32.99
+    ]
+  },
+  {
+    "name": "canto",
+    "vol": 7308.0,
+    "center": [
+      -40.13,
+      49.37,
+      12.21
+    ]
+  },
+  {
+    "name": "canto001",
+    "vol": 7308.0,
+    "center": [
+      -40.13,
+      -40.63,
+      12.21
+    ]
+  },
+  {
+    "name": "canto003",
+    "vol": 7308.0,
+    "center": [
+      49.87,
+      -40.63,
+      12.21
+    ]
+  },
+  {
+    "name": "canto002",
+    "vol": 7308.0,
+    "center": [
+      49.87,
+      49.37,
+      12.21
     ]
   },
   {
     "name": "TTGO lora32 T3 v1.6.1 Assem",
     "vol": 4800.1,
     "center": [
-      39.2,
-      20.54,
-      17.78
+      24.21,
+      1.35,
+      13.96
     ]
   },
   {
     "name": "antena gps",
     "vol": 4659.3,
     "center": [
-      19.66,
-      23.57,
-      63.35
+      4.67,
+      4.38,
+      59.54
     ]
   },
   {
-    "name": "COMPOUND003",
-    "vol": 4247.9,
+    "name": "VarPol Federleiste 2 reihig 3,4mm_Vertriebsmodell",
+    "vol": 2938.7,
     "center": [
-      -27.14,
-      -23.44,
-      -19.47
+      -34.4,
+      3.51,
+      -9.76
+    ]
+  },
+  {
+    "name": "VarPol Federleiste 2 reihig 3,4mm_Vertriebsmodell001",
+    "vol": 2938.7,
+    "center": [
+      -34.4,
+      3.51,
+      9.24
     ]
   },
   {
     "name": "HW-84 v114",
     "vol": 2093.7,
     "center": [
-      0.34,
-      5.13,
-      23.78
+      -14.65,
+      -14.06,
+      19.96
     ]
   },
   {
     "name": "NEO-M8N v6",
     "vol": 1298.0,
     "center": [
-      2.76,
-      41.05,
-      11.15
+      -12.23,
+      21.86,
+      7.33
     ]
   },
   {
     "name": "Push Button v013",
     "vol": 861.9,
     "center": [
-      41.16,
-      60.25,
-      13.83
+      26.17,
+      41.06,
+      10.01
     ]
   },
   {
-    "name": "RFM95 LoRa v15.step",
-    "vol": 294.7,
+    "name": "header female esp 01",
+    "vol": 428.9,
     "center": [
-      -0.88,
-      12.0,
-      15.91
+      36.62,
+      10.42,
+      9.21
     ]
   },
   {
-    "name": "13-Pin Header - Male - 2.54mm.step001",
-    "vol": 242.6,
+    "name": "header female esp 02",
+    "vol": 428.9,
     "center": [
-      -8.64,
-      10.35,
-      26.19
+      13.62,
+      10.42,
+      9.21
     ]
   },
   {
-    "name": "13-Pin Header - Male - 2.54mm.step003",
-    "vol": 242.6,
+    "name": "Distans Erkek M3x18mm YP-521",
+    "vol": 373.8,
     "center": [
-      -8.64,
-      10.35,
-      3.53
+      -34.14,
+      43.38,
+      -26.71
     ]
   },
   {
-    "name": "Ublox_Chipset029",
-    "vol": 191.7,
+    "name": "Distans Erkek M3x18mm YP-522",
+    "vol": 373.8,
     "center": [
-      -27.43,
-      -21.74,
-      -27.57
+      43.92,
+      -34.65,
+      -26.71
     ]
   },
   {
-    "name": "532610271.step005",
-    "vol": 47.6,
+    "name": "Distans Erkek M3x18mm YP-523",
+    "vol": 373.8,
     "center": [
-      28.57,
-      11.32,
-      15.19
+      43.91,
+      43.36,
+      -26.71
     ]
   },
   {
-    "name": "Micro USB-B Female 5Pin SMD.step007",
-    "vol": 45.0,
+    "name": "Distans Erkek M3x18mm YP-525",
+    "vol": 373.8,
     "center": [
-      32.83,
-      15.07,
-      21.11
+      -34.14,
+      43.38,
+      -7.7
+    ]
+  },
+  {
+    "name": "Distans Erkek M3x18mm YP-527",
+    "vol": 373.8,
+    "center": [
+      43.92,
+      -34.65,
+      -7.7
+    ]
+  },
+  {
+    "name": "Distans Erkek M3x18mm YP-519",
+    "vol": 373.8,
+    "center": [
+      -34.19,
+      -34.64,
+      -26.71
+    ]
+  },
+  {
+    "name": "Distans Erkek M3x18mm YP-524",
+    "vol": 373.8,
+    "center": [
+      -34.19,
+      -34.64,
+      -7.7
+    ]
+  },
+  {
+    "name": "Distans Erkek M3x18mm YP-526",
+    "vol": 373.8,
+    "center": [
+      43.91,
+      43.36,
+      -7.7
+    ]
+  },
+  {
+    "name": "lora antena",
+    "vol": 161.0,
+    "center": [
+      4.63,
+      55.59,
+      12.71
+    ]
+  },
+  {
+    "name": "header female rtc",
+    "vol": 151.1,
+    "center": [
+      -15.08,
+      -31.84,
+      8.21
+    ]
+  },
+  {
+    "name": "Micro SD Card_Varsay\\X2\\0131\\X0\\lan001",
+    "vol": 127.7,
+    "center": [
+      30.88,
+      -31.95,
+      18.71
+    ]
+  },
+  {
+    "name": "header male rtc",
+    "vol": 92.2,
+    "center": [
+      -14.82,
+      -31.83,
+      13.71
+    ]
+  },
+  {
+    "name": "Corpo001",
+    "vol": 80.5,
+    "center": [
+      -30.92,
+      55.59,
+      12.71
+    ]
+  },
+  {
+    "name": "Corpo",
+    "vol": 80.5,
+    "center": [
+      40.18,
+      55.59,
+      12.71
     ]
   },
   {
     "name": "Female Pin Header v002",
     "vol": 37.8,
     "center": [
-      -3.34,
-      -12.15,
-      13.03
+      -18.33,
+      -31.34,
+      9.21
     ]
   },
   {
     "name": "Female Pin Header v003",
     "vol": 37.8,
     "center": [
-      -0.84,
-      -12.15,
-      13.03
+      -15.83,
+      -31.34,
+      9.21
     ]
   },
   {
     "name": "Female Pin Header v006",
     "vol": 37.8,
     "center": [
-      1.66,
-      -12.15,
-      13.03
+      -13.33,
+      -31.34,
+      9.21
     ]
   },
   {
     "name": "Female Pin Header v009",
     "vol": 37.8,
     "center": [
-      4.16,
-      -12.15,
-      13.03
+      -10.83,
+      -31.34,
+      9.21
     ]
   },
   {
     "name": "MPU9255",
     "vol": 33.2,
     "center": [
-      11.35,
-      22.94,
-      -8.92
-    ]
-  },
-  {
-    "name": "QFN 28.step058",
-    "vol": 32.0,
-    "center": [
-      -17.24,
-      -21.97,
-      -19.32
+      -3.64,
+      3.75,
+      -12.74
     ]
   },
   {
     "name": "Male Pin Header v010",
     "vol": 23.1,
     "center": [
-      -19.64,
-      -23.44,
-      -24.47
+      -34.63,
+      -42.63,
+      -28.29
     ]
   },
   {
     "name": "Male Pin Header v003",
     "vol": 23.1,
     "center": [
-      -27.14,
-      -23.44,
-      -24.47
+      -42.13,
+      -42.63,
+      -28.29
     ]
   },
   {
     "name": "Male Pin Header v004",
     "vol": 23.1,
     "center": [
-      -24.64,
-      -23.44,
-      -24.47
+      -39.63,
+      -42.63,
+      -28.29
     ]
   },
   {
     "name": "Male Pin Header v007",
     "vol": 23.1,
     "center": [
-      -22.14,
-      -23.44,
-      -24.47
-    ]
-  },
-  {
-    "name": "COMPOUND013",
-    "vol": 19.0,
-    "center": [
-      -16.62,
-      -13.44,
-      -27.97
+      -37.13,
+      -42.63,
+      -28.29
     ]
   },
   {
     "name": "CCS811.single v3",
     "vol": 19.0,
     "center": [
-      52.58,
-      2.78,
-      -8.97
+      37.59,
+      -16.41,
+      -12.79
     ]
   },
   {
-    "name": "1TS003B.step002",
-    "vol": 18.9,
+    "name": "AHT20+BMP280 v14",
+    "vol": 13.5,
     "center": [
-      12.1,
-      12.27,
-      27.04
-    ]
-  },
-  {
-    "name": "cell002",
-    "vol": 17.1,
-    "center": [
-      -37.29,
-      -21.72,
-      -38.97
+      17.07,
+      36.01,
+      -12.26
     ]
   }
 ]
