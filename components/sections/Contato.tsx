@@ -12,8 +12,8 @@ interface ContactLink {
 }
 
 const contactLinks: ContactLink[] = [
-  { label: "@npaufg", href: "https://instagram.com/npaufg", icon: FaInstagram },
-  { label: "@npa-ufg", href: "https://linkedin.com/company/npa-ufg", icon: FaLinkedinIn },
+  { label: "npaufg", href: "https://instagram.com/npaufg", icon: FaInstagram },
+  { label: "npa-ufg", href: "https://linkedin.com/company/npa-ufg", icon: FaLinkedinIn },
 ];
 
 export function Contato() {
@@ -22,17 +22,19 @@ export function Contato() {
       <Container className="grid grid-cols-1 items-start gap-14 nav:grid-cols-2">
         <div>
           <SectionHeading className="mb-6">Fale conosco</SectionHeading>
-          <div className="my-[14px] mb-14 flex flex-wrap gap-10">
+          <div className="my-[14px] mb-14 flex flex-wrap gap-8">
             {contactLinks.map(({ label, href, icon: Icon }) => (
               <a
                 key={label}
                 href={href}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-2.5 font-mono underline"
+                className="group flex items-center gap-2.5 font-mono font-medium"
               >
                 <Icon className="h-[22px] w-[22px] text-rust" aria-hidden />
-                {label}
+                <span className="underline underline-offset-4 group-hover:text-rust">
+                  {label}
+                </span>
               </a>
             ))}
           </div>
