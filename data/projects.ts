@@ -73,6 +73,13 @@ export const projectItems: ProjectItem[] = [
       "Artigo \"Orbit estimation in small LEO satellites: Application and comparison of Kalman filters\", de Débora Eliane Soares de Souza Batista e Aldo André Diaz Salazar, aceito na conferência internacional LAFUSION2024.",
     area: 4,
   },
+  {
+    title: "Chaveiro LED NPA — Projeto de Arrecadação",
+    description:
+      "Chaveiro com LEDs SMD desenvolvido pelo NPA para venda e arrecadação de verba para o núcleo. O circuito conta com LEDs SMD, bateria e um interruptor liga/desliga, tudo montado em uma PCB compacta. Gire e explore o modelo 3D ao lado.",
+    area: 1,
+    model: "/assets/pcb.glb",
+  },
 ];
 
 export const galleryImages: GalleryImage[] = [

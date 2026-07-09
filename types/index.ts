@@ -49,6 +49,7 @@ export interface ProjectItem {
   title: string;
   description: string;
   area: number;
+  model?: string;
 }
 
 export interface GalleryImage {

@@ -11,6 +11,7 @@ import {
   Telescope,
   type LucideIcon,
 } from "lucide-react";
+import { PCBViewer } from "@/components/PCBViewer";
 import { Container } from "@/components/ui/Container";
 import { projectAreas, projectItems } from "@/data/projects";
 import { cn } from "@/lib/utils";
@@ -107,16 +108,30 @@ export function ProjectShowcase({ children }: ProjectShowcaseProps) {
               Projetos em {activeArea.title}
             </h3>
             {areaProjects.length > 0 ? (
-              areaProjects.map((item) => (
-                <div key={item.title} className="mb-7">
-                  <h4 className="mb-1.5 font-mono text-base font-bold text-gold">
-                    {item.title}
-                  </h4>
-                  <p className="max-w-[80ch] font-mono text-[0.9rem] text-[#cfcfcf]">
-                    {item.description}
-                  </p>
-                </div>
-              ))
+              areaProjects.map((item) =>
+                item.model ? (
+                  <div key={item.title} className="mb-10 grid grid-cols-1 gap-6 nav:grid-cols-2 nav:items-center">
+                    <div>
+                      <h4 className="mb-1.5 font-mono text-base font-bold text-gold">
+                        {item.title}
+                      </h4>
+                      <p className="max-w-[80ch] font-mono text-[0.9rem] text-[#cfcfcf]">
+                        {item.description}
+                      </p>
+                    </div>
+                    <PCBViewer modelUrl={item.model} />
+                  </div>
+                ) : (
+                  <div key={item.title} className="mb-7">
+                    <h4 className="mb-1.5 font-mono text-base font-bold text-gold">
+                      {item.title}
+                    </h4>
+                    <p className="max-w-[80ch] font-mono text-[0.9rem] text-[#cfcfcf]">
+                      {item.description}
+                    </p>
+                  </div>
+                ),
+              )
             ) : (
               <p className="font-mono text-[0.9rem] text-[#cfcfcf]">
                 Novos projetos desta área serão divulgados em breve.
