@@ -49,14 +49,8 @@ function ExplodedModel({ url }: { url: string }) {
       if (dist > 0.01) dir.normalize();
       else dir.set(0, 1, 0);
 
-      const name = child.name || child.parent?.name || "";
-      const structural = isStructure(name);
-
-      // Structural parts: large explosion
-      // Internal parts: smaller explosion
-      const mag = structural
-        ? EXPLODE_STRENGTH * 1.5
-        : EXPLODE_STRENGTH * 0.4 * Math.max(dist / 50, 0.3);
+      // All remaining parts are internal components — uniform moderate explosion
+      const mag = EXPLODE_STRENGTH * Math.max(dist / 50, 0.3);
 
       const offset = dir.multiplyScalar(mag);
 
