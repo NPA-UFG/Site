@@ -27,7 +27,8 @@ export function PCBViewer({ modelUrl }: { modelUrl: string }) {
         auto-rotate
         auto-rotate-delay="0"
         rotation-per-second="25deg"
-        camera-controls
+        interaction-prompt="none"
+        disable-zoom
         environment-image="neutral"
         exposure="1.5"
         shadow-intensity="0"
