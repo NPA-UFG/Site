@@ -50,6 +50,7 @@ export interface ProjectItem {
   description: string;
   area: number;
   model?: string;
+  modelType?: "pcb" | "explosion";
 }
 
 export interface GalleryImage {

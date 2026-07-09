@@ -1,0 +1,254 @@
+[
+  {
+    "name": "18650 Battery Holder v5",
+    "vol": 20788.4,
+    "center": [
+      19.87,
+      23.57,
+      -19.47
+    ]
+  },
+  {
+    "name": "35v 18650 v005",
+    "vol": 16540.5,
+    "center": [
+      -27.14,
+      -27.44,
+      -19.47
+    ]
+  },
+  {
+    "name": "TTGO lora32 T3 v1.6.1 Assem",
+    "vol": 4800.1,
+    "center": [
+      39.2,
+      20.54,
+      17.78
+    ]
+  },
+  {
+    "name": "antena gps",
+    "vol": 4659.3,
+    "center": [
+      19.66,
+      23.57,
+      63.35
+    ]
+  },
+  {
+    "name": "COMPOUND003",
+    "vol": 4247.9,
+    "center": [
+      -27.14,
+      -23.44,
+      -19.47
+    ]
+  },
+  {
+    "name": "HW-84 v114",
+    "vol": 2093.7,
+    "center": [
+      0.34,
+      5.13,
+      23.78
+    ]
+  },
+  {
+    "name": "NEO-M8N v6",
+    "vol": 1298.0,
+    "center": [
+      2.76,
+      41.05,
+      11.15
+    ]
+  },
+  {
+    "name": "Push Button v013",
+    "vol": 861.9,
+    "center": [
+      41.16,
+      60.25,
+      13.83
+    ]
+  },
+  {
+    "name": "RFM95 LoRa v15.step",
+    "vol": 294.7,
+    "center": [
+      -0.88,
+      12.0,
+      15.91
+    ]
+  },
+  {
+    "name": "13-Pin Header - Male - 2.54mm.step001",
+    "vol": 242.6,
+    "center": [
+      -8.64,
+      10.35,
+      26.19
+    ]
+  },
+  {
+    "name": "13-Pin Header - Male - 2.54mm.step003",
+    "vol": 242.6,
+    "center": [
+      -8.64,
+      10.35,
+      3.53
+    ]
+  },
+  {
+    "name": "Ublox_Chipset029",
+    "vol": 191.7,
+    "center": [
+      -27.43,
+      -21.74,
+      -27.57
+    ]
+  },
+  {
+    "name": "532610271.step005",
+    "vol": 47.6,
+    "center": [
+      28.57,
+      11.32,
+      15.19
+    ]
+  },
+  {
+    "name": "Micro USB-B Female 5Pin SMD.step007",
+    "vol": 45.0,
+    "center": [
+      32.83,
+      15.07,
+      21.11
+    ]
+  },
+  {
+    "name": "Female Pin Header v002",
+    "vol": 37.8,
+    "center": [
+      -3.34,
+      -12.15,
+      13.03
+    ]
+  },
+  {
+    "name": "Female Pin Header v003",
+    "vol": 37.8,
+    "center": [
+      -0.84,
+      -12.15,
+      13.03
+    ]
+  },
+  {
+    "name": "Female Pin Header v006",
+    "vol": 37.8,
+    "center": [
+      1.66,
+      -12.15,
+      13.03
+    ]
+  },
+  {
+    "name": "Female Pin Header v009",
+    "vol": 37.8,
+    "center": [
+      4.16,
+      -12.15,
+      13.03
+    ]
+  },
+  {
+    "name": "MPU9255",
+    "vol": 33.2,
+    "center": [
+      11.35,
+      22.94,
+      -8.92
+    ]
+  },
+  {
+    "name": "QFN 28.step058",
+    "vol": 32.0,
+    "center": [
+      -17.24,
+      -21.97,
+      -19.32
+    ]
+  },
+  {
+    "name": "Male Pin Header v010",
+    "vol": 23.1,
+    "center": [
+      -19.64,
+      -23.44,
+      -24.47
+    ]
+  },
+  {
+    "name": "Male Pin Header v003",
+    "vol": 23.1,
+    "center": [
+      -27.14,
+      -23.44,
+      -24.47
+    ]
+  },
+  {
+    "name": "Male Pin Header v004",
+    "vol": 23.1,
+    "center": [
+      -24.64,
+      -23.44,
+      -24.47
+    ]
+  },
+  {
+    "name": "Male Pin Header v007",
+    "vol": 23.1,
+    "center": [
+      -22.14,
+      -23.44,
+      -24.47
+    ]
+  },
+  {
+    "name": "COMPOUND013",
+    "vol": 19.0,
+    "center": [
+      -16.62,
+      -13.44,
+      -27.97
+    ]
+  },
+  {
+    "name": "CCS811.single v3",
+    "vol": 19.0,
+    "center": [
+      52.58,
+      2.78,
+      -8.97
+    ]
+  },
+  {
+    "name": "1TS003B.step002",
+    "vol": 18.9,
+    "center": [
+      12.1,
+      12.27,
+      27.04
+    ]
+  },
+  {
+    "name": "cell002",
+    "vol": 17.1,
+    "center": [
+      -37.29,
+      -21.72,
+      -38.97
+    ]
+  }
+]

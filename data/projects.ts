@@ -79,6 +79,15 @@ export const projectItems: ProjectItem[] = [
       "Chaveiro com LEDs SMD desenvolvido pelo NPA para venda e arrecadação de verba para o núcleo. O circuito conta com LEDs SMD, bateria e um interruptor liga/desliga, tudo montado em uma PCB compacta. Gire e explore o modelo 3D ao lado.",
     area: 1,
     model: "/assets/pcb.glb",
+    modelType: "pcb",
+  },
+  {
+    title: "AgroSat-IoT — Satélite IoT para Agricultura",
+    description:
+      "CubeSat de baixo custo com LoRa, GPS, e sensores ambientais (BMP280, CCS811, MPU9255) para monitoramento agrícola. Assista à animação de explosão mostrando todos os componentes do assembly.",
+    area: 1,
+    model: "/assets/agrosat.glb",
+    modelType: "explosion",
   },
 ];
 
