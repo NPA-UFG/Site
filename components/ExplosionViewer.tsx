@@ -76,8 +76,10 @@ function ExplodedModel({ url }: { url: string }) {
   });
 
   return (
-    <group ref={groupRef} scale={SCALE} rotation={[-Math.PI / 2, 0, 0]}>
-      <primitive object={cloned} />
+    <group ref={groupRef}>
+      <group scale={SCALE} rotation={[-Math.PI / 2, 0, 0]}>
+        <primitive object={cloned} />
+      </group>
     </group>
   );
 }
