@@ -5,7 +5,7 @@ import { Canvas, useFrame } from "@react-three/fiber";
 import { OrbitControls, useGLTF, Environment } from "@react-three/drei";
 import * as THREE from "three";
 
-const SCALE = 0.006;
+const SCALE = 0.009;
 const EXPLODE_STRENGTH = 60; // mm — quanto a estrutura abre
 
 // Structural / enclosure parts that should explode a lot
@@ -71,7 +71,7 @@ function ExplodedModel({ url }: { url: string }) {
 
   useFrame((_, delta) => {
     if (groupRef.current) {
-      groupRef.current.rotation.y -= delta * 0.15;
+      groupRef.current.rotation.y -= delta * (25 * Math.PI / 180); // 25 deg/s — igual ao chaveiro
     }
   });
 
@@ -88,7 +88,7 @@ export function ExplosionViewer({ modelUrl }: { modelUrl: string }) {
   return (
     <div className="h-[400px] w-full overflow-hidden rounded-lg">
       <Canvas
-        camera={{ position: [1.0, 0.6, 1.6], fov: 45 }}
+        camera={{ position: [1.5, 0.8, 2.2], fov: 45 }}
         gl={{ alpha: true, antialias: true }}
       >
         <ambientLight intensity={0.7} />
