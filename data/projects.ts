@@ -84,7 +84,7 @@ export const projectItems: ProjectItem[] = [
   {
     title: "Equipe Orbitalis — 3ª OBSAT",
     description:
-      "Formada por alunos de Engenharia Elétrica e Engenharia Física da UFG sob supervisão do Professor Aldo Diaz (INF), a equipe Orbitalis, oriunda do NPA, desenvolveu o AgroSat-IoT — um CubeSat 1U que atua como gateway orbital de comunicação via LoRa, retransmitindo dados de sensores agrícolas de regiões sem cobertura celular para estações de controle em terra, competindo na 3ª Olimpíada Brasileira de Satélites (OBSAT).",
+      "Formada por alunos de Engenharia Elétrica e Engenharia Física da UFG sob supervisão do Professor Aldo Diaz (INF), a equipe Orbitalis, oriunda do NPA, desenvolveu o AgroSat-IoT — um CubeSat 1U que funciona como gateway orbital para regiões agrícolas sem cobertura de internet ou celular. Sensores nas propriedades rurais transmitem dados via LoRa ao satélite, que os armazena e retransmite para estações base em terra, viabilizando a agricultura de precisão em áreas remotas. Projeto desenvolvido para a 3ª Olimpíada Brasileira de Satélites (OBSAT).",
     area: 1,
     model: "/assets/agrosat.glb",
     modelType: "explosion",
