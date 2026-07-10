@@ -13,11 +13,11 @@ export function PCBViewer({ modelUrl }: { modelUrl: string }) {
   }, [modelUrl]);
 
   if (!loaded) {
-    return <div className="h-[320px] w-full overflow-hidden rounded-lg" />;
+    return <div className="flex h-[280px] w-full items-center overflow-hidden rounded-lg" />;
   }
 
   return (
-    <div className="h-[320px] w-full overflow-hidden rounded-lg">
+    <div className="flex h-[280px] w-full items-center justify-center overflow-hidden rounded-lg">
       {/* @ts-expect-error model-viewer is a web component */}
       <model-viewer
         key={key}
@@ -28,10 +28,11 @@ export function PCBViewer({ modelUrl }: { modelUrl: string }) {
         auto-rotate-delay="0"
         rotation-per-second="25deg"
         camera-controls
+        interaction-prompt="none"
         environment-image="neutral"
         exposure="1.0"
         shadow-intensity="0"
-        style={{ width: "100%", height: "70%" }}
+        style={{ width: "100%", height: "100%" }}
       />
     </div>
   );
